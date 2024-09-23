@@ -8,15 +8,12 @@ interface FormJsonProps {
 
 export const FormJson = ({ onSubmit }: FormJsonProps) => {
     const [jsonValue, setJsonValue] = useState("");
-    const [isJsonValid, setIsJsonValid] = useState(true);
+    const [isJsonValid, setIsJsonValid] = useState(false);
 
     const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
         const value = event.target.value;
-
-        if(value !== "") {
-            setJsonValue(value);
-            validateJson(value);
-        }
+        setJsonValue(value);
+        validateJson(value);
     };
 
     const validateJson = (value: string) => {
