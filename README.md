@@ -56,5 +56,5 @@ The project is organized as follows:
   
 ## Project Demo Link
 
-- **Project Demo**: Click by here .
-- **Storybook**: Click by here .
+- **Project Demo**: [Demo Link](https://tree-json-viewer.vercel.app/)
+- **Storybook**: [Demo Storybook Link](https://tree-json-viewer-3c3y.vercel.app/?path=/docs/upbound-challenge--docs)
